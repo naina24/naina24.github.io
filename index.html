@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  background-image:url("bruno-bergher--8ttvM3Ca94-unsplash.jpg");
+  background-repeat:no-repeat;
+  background-size:100% 200%;
+}
+p{
+font-color:#00b300;}
+img{
+border-radius:50%;}
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: auto;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+h1{
+margin-left:auto;
+text-shadow: 2px 2px red;
+}
+.leftcolumn { 
+	margin-left:450px;
+	float: center;
+  height: 360px;
+  width: 415px;
+  text-align: center;
+}
+.card {
+  
+  padding: 20px;
+  margin-top: 0px;
+  margin-bottom:0px;
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  float: center;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-github {
+  background: #0d0d0d;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div id="mySidepanel" class="sidepanel">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="index.html">Projects</a>
+</div>
+
+  
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+	<li><button class="openbtn" onclick="openNav()">☰</button></li>
+      
+      
+    </ul>
+	<ul class="nav navbar-nav navbar-right">
+      <li><a href="index.html"><li class="active">Home</a></li>
+      <li><a href="about.html"><li>About</a></li>
+	  <li><a href="index.html">Projects</a></li>
+    </ul>
+  </div>
+</nav>
+<script>
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+</script>
+<style>
+h1{
+font-family:Arial;
+}
+</style>
+
+<h1></h1>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <a href="index.html"><img src="WhatsApp Image 2019-12-01 at 23.10.18.jpeg" alt="image not found" title="Naina Kumari" height="200px" width="190px"></a>
+	  <h1>There is always an existence of a way</h1>
+	  <h1>that leads to the success!!!</h1>
+	<hr>
+	<a href="https://twitter.com/NainaKu53756860" class="fa fa-twitter"></a>
+		<a href="https://github.com/naina24" style="font-size:10px" class="fa fa-github"></a>
+	<a href="https://www.linkedin.com/in/naina-kumari" class="fa fa-linkedin"></a>
+	<hr>
+	</div>
+	</div>
+</div>
+
+</body>
+</html> 
